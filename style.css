@@ -1,6 +1,6 @@
 
 
-body{font-family: 'Exo 2', sans-serif;
+body{font-family: 'Montserrat', sans-serif;
     background-color:#19464d ;
     color: #ffffff;
     line-height: 2em;
@@ -8,13 +8,18 @@ body{font-family: 'Exo 2', sans-serif;
 }
 h1{
     color:#68B2A0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
 
 }
 h2,h3{
     color:#CDE0C9;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .topnav {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
     position:s-webkit-sticky;
     top:0;
     z-index: 100;
