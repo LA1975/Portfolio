@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
     <script src="app.js"></script>
     <title>Leigh Mansell Developer Portfolio</title>
@@ -15,27 +16,73 @@
  
 <body class="main"> 
     <div class="topnav">
-    <a href=#>Home</a>
-
-    <a href=#>About me</a>
-    <a href=#">Projects</a>
-    <a href="#">Contact</a>
-
-
-  </div>
-<section class = "section about">
-    <h1>Leigh Mansell</h1>
+        <a class="navLink "  href="#header">Home</a>
     
-    <h2>Full Stack Developer</h2>
+        <a class="navLink" href="#about">About me</a>
+        <a class="navLink" href="#portfolio">Projects</a>
+        <a class="navLink" href="#contact">Contact</a>
+      </div>
+      
+    
+    <section class = "section section1 header active" id="header">
+        <div class="headerContent">
+            
+            <div class="leftHeader">
+                <h1 id="name">Leigh Mansell</h1>
+                <h2 id="descript">Full Stack Developer</h2>
+                <br>
+                <p id="skills">html <i class="lab la-2x la-html5"></i>, css <i class="lab la-css3"></i>, javascript <i class="lab la-js-square"></i>, node.js <i class="lab la-node-js"></i>, express.js, SQLite, java <i class="lab la-java"></i></p>
+                
+            </div>
+            <div class="rightHeader">
+                <div class="headerShape"></div>
+                <div class="image">
+                    <img src="earthrise.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        
+    
+    
+    
+    </section>
+    
+<main>
+<section class = "section section2 about" id="about">
     
 
-    <h3>Bio</h3>
-    <p id="bio"></p>
-    <br>
-    <p>html, css, javascript, node.js, express.js, SQLite, java</p>
+    <h2>Bio</h2>
+    <p id="bio">I am a Junior Full-Stack Software Developer, freshly completed the University of Auckland PostGraduate Certificate in Information Technology. I recently discovered coding again out of a desire for a new challenge and to learn new skills...and fell in love with it. I find it very intellectually stimulating, challenging and enjoyed working constructively with others to problem solve. I'd describe myself as organised, motivated and flexible, with a wide ranging skillset. My experience as an educator gives me the ability to distill difficult concepts clearly and simply. I'm open to new opportunities and looking to utilise my previous experiences going forward in a new role as a developer</p>
+    
+
+    <p>icons for later use: <i class="las la-toggle-off"></i><i class="las la-toggle-on"></i></i><i class="las la-phone"></i><i class="las la-map-marker"></i><i class="las la-envelope"></i><i class="lab la-codepen"></i><i class="lab la-java"></i><i class="lab la-css3"></i><i class="lab la-github"></i><i class="lab la-js-square"></i><i class="lab la-linkedin"></i><i class="lab la-node-js"></i><i class="lar la-moon"><i class="las la-cloud-moon"></i></i><i class="las la-sun"></i><i class="las la-book-open"></i></p>
 </section>
 
+<section class ="section section3 portfolio" id="portfolio">
+    <h2>Portfolio</h2>
+</section>
 
+<section class ="section section4 contact" id="contact">
+    <h2>Get In Touch</h2>
+</section>
+</main>
+<div class="controlButtons">
+    <div class = "control control-1 activeBtn" data-id="header">
+        <a href="#header"><i class="las la-home" data-id="header"></i></a>
+    </div>
+    <div class = "control control-2" data-id="about">
+        <a href="#about"><i class="las la-info-circle" data-id="about"></i></a>
+    </div>
+        
+    <div class = "control control-3" data-id="portfolio">
+        <a href="#portfolio"><i class="las la-book-open" data-id="portfolio"></i></a>
+    </div>
+        
+
+    <div class = "control control-4 " data-id="contact">
+        <a href="#contact"><i class="las la-envelope" data-id="contact"></i></a>
+    </div>
+</div>
 
 </body>
 

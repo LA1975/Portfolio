@@ -4,8 +4,71 @@ body{font-family: 'Montserrat', sans-serif;
     background-color:#19464d ;
     color: #ffffff;
     line-height: 2em;
+    transition: all 0.3s ease-in-out;
+    margin: 0px;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
 
 }
+.about p{
+  padding-right: 15rem;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+section{
+  height: 500px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+
+}
+ #header{
+  height: 100vh;
+ }
+
+/*control buttons for navigating between sections*/
+.controlButtons{
+  position: fixed;
+  z-index: 100;
+  top:50%;
+  right: 3%;
+  display: flex;
+  flex-direction: column;
+  
+  transform: translateY(-50%);
+}
+.control{
+  padding: 1rem;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.8rem;
+}
+i{
+  font-size: 1.5rem;
+  color: #68B2A0;
+}
+
+i:hover{
+  color: #CDE0C9;
+}
+.activeBtn i{
+  color:#CDE0C9;
+  transition: all 0.3s ease-in-out;
+  
+}
+
 h1{
     color:#68B2A0;
     font-family: 'Courier New', Courier, monospace;
@@ -20,16 +83,29 @@ h2,h3{
 .topnav {
   font-family: 'Courier New', Courier, monospace;
   font-size: 2rem;
-    position:s-webkit-sticky;
+    position:sticky;
     top:0;
+    margin-right: 3rem;
+    text-align: center;
     z-index: 100;
-      background-color:#19464d ;
-      ;
-      overflow: hidden;
-    }
+    background-color:#19464d ;
+    overflow: hidden;
+  }
     /* Style the links inside the navigation bar */
+    
+    
+     /* Change the color of navbar links on hover */
+     .topnav a:hover {
+    
+      color: #CDE0C9;
+    }
+
+   .navLink .active a  {
+      color:#CDE0C9;
+      transition: all 0.3s ease-in-out;
+    }
     .topnav a {
-      float: left;
+      float: center;
       color: #68B2A0;
       text-align: center;
       padding: 14px 16px;
@@ -37,12 +113,54 @@ h2,h3{
       font-size: 18px;
       font-weight: bold;
     }
-    
-     /* Change the color of navbar links on hover */
-     .topnav a:hover {
-    
-      color: #CDE0C9;
-    }
+    .headerContent{
+      display:grid;
+      grid-template-columns: repeat(2, 1fr);
+      height:100%;
   
+    }
+
+  .rightHeader{
+    display:flex;
+    align-items: center;
+    position: relative;
+
+  }
+  #header p{
+         animation: fadein 4s;
+}
+
+@keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
     
+  .headerShape{
+    transition: all 0.3s ease-in-out;
+    width:55%;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+  
+  }
+  .image{
+   
+    width:55%;
+    margin-left: 4rem;
+    transition: all 0.3s ease-in-out;
+  }
+  img{
+    border-radius: 50%;
+    width: 100%;
+    
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+  }
+  .leftHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    padding-left: 4rem;
+  } 
     
