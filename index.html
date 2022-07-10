@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,80 +13,110 @@
     <title>Leigh Mansell Developer Portfolio</title>
 </head>
  
-<body class="main"> 
+ <body> 
   
-    <section class = "section section1 header active" id="header">
+    <section class = "header"> 
         <nav>
-            <img class="logo" src="src\images\Html Prompt Logo.png" alt="">
+            
+            
             <ul>
-                <li><a class="navLink "  href="#header">Home</a></li>
-                <li><a class="navLink" href="#about">About me</a></li>
-                <li><a class="navLink" href="#portfolio">Projects</a></li>
-                <li> <a class="navLink" href="#contact">Contact</a></li>
+             <li><a class="navLink "  href="#header">Home</a></li>
+             <li><a class="navLink" href="#about">About me</a></li>
+             <li><a class="navLink" href="#portfolio">Projects</a></li>
+             <li> <a class="navLink" href="#contact">Contact</a></li>
             </ul>  
-         </nav>
-
-        <div class="headerContent">
-            <div class="leftHeader">
-                <div>
-                <h1 id="name">Leigh Mansell</h1>
-                <h2 id="descript">Full Stack Developer</h2>
-                <!--<div class="button">About me</div>-->
-                <p id="skills">html <i class="lab la-2x la-html5"></i>, css <i class="lab la-css3"></i>, javascript <i class="lab la-js-square"></i>, node.js <i class="lab la-node-js"></i>, express.js, SQLite, java <i class="lab la-java"></i></p>  
+        </nav>
+    <div class="header-area" id="header">
+        <div class="header-text">
+            <h1 id="name">Leigh Mansell</h1>
+            <h2 id="descript">Full Stack Developer</h2>
+           
+            <p id="skills">html, css, javascript, node.js , express.js, SQLite, java </p>  
+        </div>
+        <div class="socials">
+            <div class="social-button">
+                <a href="https://www.linkedin.com/in/leigh-anne-mansell-7ab2a8221" target="_blank">
+                    <i class="lab la-linkedin"></i>
+                </a>
             </div>
-              
+            <div class="social-button">
+                <a href="https://github.com/LA1975" target="_blank">
+                    <i class="lab la-github"></i>
+                </a>
+            
             </div>
-          
-            <div class="rightHeader">
-                <div class="image">
-                    <img id="header-image" src="src\images\earthrise.jpg" alt="">
-                </div>
-                
+            <div class="social-button">
+                <a href="https://codepen.io/la1975" target="_blank">
+                <i class="lab la-codepen"></i>
+                </a>
             </div>
         </div>
-        
-    
-    
-    
-    </section>
-
-<section class = "section section2 about" id="about">
-    
+    </div>
+</section>
+<section class = "subsection about" id="about">
+    <div class="information">
 
     <h2>Bio</h2>
     <p id="bio">I am a Junior Full-Stack Software Developer, freshly completed the University of Auckland PostGraduate Certificate in Information Technology. I recently discovered coding again out of a desire for a new challenge and to learn new skills...and fell in love with it. I find it very intellectually stimulating, challenging and enjoyed working constructively with others to problem solve. I'd describe myself as organised, motivated and flexible, with a wide ranging skillset. My experience as an educator gives me the ability to distill difficult concepts clearly and simply. I'm open to new opportunities and looking to utilise my previous experiences going forward in a new role as a developer</p>
     
-
-    <p>icons for later use: <i class="las la-toggle-off"></i><i class="las la-toggle-on"></i></i><i class="las la-phone"></i><i class="las la-map-marker"></i><i class="las la-envelope"></i><i class="lab la-codepen"></i><i class="lab la-java"></i><i class="lab la-css3"></i><i class="lab la-github"></i><i class="lab la-js-square"></i><i class="lab la-linkedin"></i><i class="lab la-node-js"></i><i class="lar la-moon"><i class="las la-cloud-moon"></i></i><i class="las la-sun"></i><i class="las la-book-open"></i></p>
-</section>
-
-<section class ="section section3 portfolio" id="portfolio">
-    <h2>Portfolio</h2>
-</section>
-
-<section class ="section section4 contact" id="contact">
-    <h2>Get In Touch</h2>
-</section>
-<footer></footer>
-
-<div class="socials">
-    <div class="social-button">
-        <a href="https://www.linkedin.com/in/leigh-anne-mansell-7ab2a8221" target="_blank">
-            <i class="lab la-linkedin"></i>
-        </a>
-    </div>
-    <div class="social-button">
-        <a href="https://github.com/LA1975" target="_blank">
-            <i class="lab la-github"></i>
-        </a>
-    
-    </div>
-    <div class="social-button">
-        <a href="https://codepen.io/la1975" target="_blank">
-        <i class="lab la-codepen"></i>
-        </a>
-    </div>
 </div>
+
+<div class="headshot-container">
+    <img class="headshot" src="src\images\headshot.jpg" alt="Leigh Mansell Headshot">
+</div>
+</section>
+    <section></section>
+    <footer></footer>
+
+
+<section class ="projects" id="portfolio">
+    <h2>Projects</h2>
+    <div class="project-container">
+        <div class="project-card">
+            <img class="project-image" src="src\images\color-morph.svg" alt="">
+            <h3>Project One</h3>
+            <p>This is some text about the project</p>
+            <hr/>
+            <p class = "subtext"><a href="https://github.com/LA1975" target="_blank">
+                <i class="lab la-github"></i>
+            </a>View here</p>
+        </div>
+        <div class="project-card">
+            <img class="project-image" src="src\images\color-morph.svg" alt="">
+            <h3>Project Two</h3>
+            <p>This is some text about the project</p>
+            <hr/>
+            <p class = "subtext"><a href="https://github.com/LA1975" target="_blank">
+                <i class="lab la-github"></i></a>View here</p>
+        </div>
+        <div class="project-card">
+            <img class="project-image" src="src\images\color-morph.svg" alt="">
+            <h3>Project Three</h3>
+            <p>This is some text about the project</p>
+            <hr/>
+            <p class = "subtext"><a href="https://github.com/LA1975" target="_blank">
+                <i class="lab la-github"></i></a>View here</p>
+        </div>
+        <div class="project-card">
+            <img class="project-image" src="src\images\color-morph.svg" alt="">
+            <h3>Project Four</h3>
+            <p>This is some text about the project</p>
+            <hr/>
+            <p class = "subtext"><a href="https://github.com/LA1975" target="_blank">
+                <i class="lab la-github"></i></a>View here</p>
+        </div>
+    </div>
+</section>
+
+<section class ="contact" id="contact">
+    <h2>Get In Touch</h2>
+    <p>Leigh-Anne.Mansell@outlook.com</p>
+</section>
+<footer>
+    <p>icons for later use: <i class="las la-toggle-off"></i><i class="las la-toggle-on"></i></i><i class="las la-phone"></i><i class="las la-map-marker"></i><i class="las la-envelope"></i><i class="lab la-codepen"></i><i class="lab la-java"></i><i class="lab la-css3"></i><i class="lab la-github"></i><i class="lab la-js-square"></i><i class="lab la-linkedin"></i><i class="lab la-node-js"></i><i class="lar la-moon"><i class="las la-cloud-moon"></i></i><i class="las la-sun"></i><i class="las la-book-open"></i></p>
+</footer>
+
+
 </div>
 
 </body>
