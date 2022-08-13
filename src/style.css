@@ -3,8 +3,12 @@ body{
   background-color:#19464d ;
   max-width: 100%;
   font-family: 'Courier New', Courier, monospace;
+  color: #FFFFFF;
 }
-
+.light{
+  background-color: #FFFFFF;
+  color: #19464d;
+}
 section{
   
   margin-right:60px;
@@ -12,7 +16,6 @@ section{
 }
 p{
   font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
   line-height: 2rem;
 }
 .header{
@@ -169,7 +172,6 @@ hr{
 .card:hover { 
   transform: scale(1.05); 
   box-shadow: 5px 5px 20px #FFFFFF;
-
 
 }
 

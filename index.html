@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
     <script src="src/app.js"></script>
+    <script src="src\ProjectInfo.js"></script>
     <title>Leigh Mansell Developer Portfolio</title>
 </head>
  
- <body> 
+ <body class="dark"> 
     <nav>
              
         <ul id="navList">
@@ -22,6 +23,8 @@
          <li><a class="navLink" href="#about">About me</a></li>
          <li><a class="navLink" href="#portfolio">Projects</a></li>
          <li> <a class="navLink" href="#contact">Contact</a></li>
+         
+        
         </ul>  
         <div class="hamburger" id="hamburger">
             <div id="hamburger-container">
@@ -32,15 +35,14 @@
     </div>
     </nav>
     <section class = "header"> 
-        
+           
     <div class="header-area" id="header">
+        
         <div class="header-text">
             <h1 id="name">Leigh Mansell</h1>
             <h2 id="descript">Full Stack Developer</h2>
-           
             <p id="skills">html, css, javascript, node.js , express.js, SQLite, java </p>  
         </div>
-        
     </div>
 </section>
 <section class = "subsection about" id="about">
@@ -59,43 +61,8 @@
  
 <section class ="projects" id="portfolio">
     <h2>Projects</h2>
-    <div class="card-grid">
-        <div class="card">
-            <img class="card-image" src="src\images\color-morph.svg" alt="">
-            <h3>Project One</h3>
-            <p class="card-text">This is some text about the project</p>
-            <hr/>
-            <p class = "card-text"><a href="https://github.com/LA1975">
-                <i class="lab la-github"></i>
-            </a>View here</p>
-        </div>
-        <div class="card">
-            <img class="card-image" src="src\images\color-morph.svg" alt="">
-            <h3>Project One</h3>
-            <p class="card-text">This is some text about the project</p>
-            <hr/>
-            <p class = "card-text"><a href="https://github.com/LA1975">
-                <i class="lab la-github"></i>
-            </a>View here</p>
-        </div>
-        <div class="card">
-            <img class="card-image" src="src\images\color-morph.svg" alt="">
-            <h3>Project One</h3>
-            <p class="card-text">This is some text about the project</p>
-            <hr/>
-            <p class = "card-text"><a href="https://github.com/LA1975">
-                <i class="lab la-github"></i>
-            </a>View here</p>
-        </div>
-        <div class="card">
-            <img class="card-image" src="src\images\color-morph.svg" alt="">
-            <h3>Project One</h3>
-            <p class="card-text">This is some text about the project</p>
-            <hr/>
-            <p class = "card-text"><a href="https://github.com/LA1975">
-                <i class="lab la-github"></i>
-            </a>View here</p>
-        </div>
+    <div class="card-grid" id="container">
+        
     </div>
 </section>
 
@@ -111,20 +78,23 @@
 </div>
 
 <div class="socials">
+    <div class="mode">
+        <span class="change social-button" id ="modeBtn"><i class="las la-cloud-moon" id ="modeBtnIcon"></i></span>
+    </div> 
     <div class="social-button">
-        <a href="https://www.linkedin.com/in/leigh-anne-mansell-7ab2a8221" >
+        <a href="https://www.linkedin.com/in/leigh-anne-mansell-7ab2a8221" aria-label="Go to linkedIn profile">
             <i class="lab la-linkedin"></i>
         </a>
     </div>
     <div class="social-button">
-        <a href="https://github.com/LA1975">
+        <a href="https://github.com/LA1975" aria-label="Go to github profile">
             <i class="lab la-github"></i>
         </a>
     
     </div>
     <div class="social-button">
-        <a href="https://codepen.io/la1975">
-        <i class="lab la-codepen"></i>
+        <a href="https://codepen.io/la1975" aria-label="Go to codepen">
+        <i class="lab la-codepen"></i> 
         </a>
     </div>
 </div>
