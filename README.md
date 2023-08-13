@@ -22,7 +22,7 @@ My first iteration of a portfolio website.
                   
 **Contact section**
 
-  Need to be able to be contacted by credible people not bots, creepos or spammers.
+  - removed for now. Need to be able to be contacted by credible people not bots, creepos or spammers.
   Uncomfortable putting too much personal contact info up - woman on the internet issues.
     
         
