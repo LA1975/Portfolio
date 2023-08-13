@@ -2,7 +2,7 @@ const project = [
     {
         fileName: "Notes Mad screenshot.png",
         title: "Notes Mad Website",
-        description: "Notes Mad was inspired by an online tutorial for a simple front-end app.  I made it into a full stack app with user login and admin facilities.  HTML, CSS, Javascript, node.js, express, handlebars, SQLite",
+        description: "Notes Mad a full stack app with user login and admin facilities.  HTML, CSS, Javascript, node.js, express, handlebars, SQLite",
         gitHubLink:"https://github.com/LA1975/Notes-Mad.git"
     },
     {
